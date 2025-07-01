@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+    <style>
+        *{
+            margin-top: auto;
+            padding: auto;
+        }
+        body {
+            background-color: #E0EBE8;
+        }
+
+        h2 {
+            margin-left: 30%;
+            color: #4AB19A;
+            padding-top: 2%;
+        }
+
+        a {
+            color: #4AB19A;
+        }
+
+        p {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        img{
+            height:280px ;
+            width: 385px;
+            border-radius: 50%;
+            margin-left: 5%;
+            margin-right: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-container">
+        <a href="main.html"><button class="home-btn">← HOME PAGE</button></a>
+        <h2 class="about-title">About Me</h2>
+        <div class="about-card">
+            <img src="profile.JPG" alt="Profile Picture" class="about-img">
+            <div class="about-text">
+                <p>
+                    Hi, I'm Mohd Aamir, a MCA pursing student who's passionate about becoming a great software developer. My primary interests lie in competitive programming and development, and I've honed my skills in C++ through solving DSA and logic-based problems.<br><br>
+                    Currently, I'm exploring full stack web development using HTML, CSS, and JavaScript, along with other frameworks. I've completed several projects in web development, and I'm always looking for opportunities to gain more experience and work on real-world projects.
+                </p>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: #E0EBE8;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .about-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(74, 177, 154, 0.12);
+            padding: 32px 24px 40px 24px;
+        }
+        .about-title {
+            text-align: center;
+            color: #4AB19A;
+            font-size: 2.2rem;
+            margin-bottom: 32px;
+        }
+        .about-card {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+        .about-img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 2px 12px rgba(74, 177, 154, 0.15);
+            margin: 0 auto;
+            display: block;
+        }
+        .about-text {
+            flex: 1;
+            min-width: 220px;
+        }
+        .about-text p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.7;
+            margin: 0;
+        }
+        .home-btn {
+            background: #4AB19A;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 22px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-bottom: 24px;
+            transition: background 0.2s;
+        }
+        .home-btn:hover {
+            background: #388e7a;
+        }
+        @media (max-width: 600px) {
+            .about-card {
+                flex-direction: column;
+                gap: 18px;
+            }
+            .about-container {
+                padding: 16px 4px 24px 4px;
+            }
+            .about-img {
+                height: 120px;
+                width: 120px;
+            }
+            .about-title {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</body>
+
+</html>
